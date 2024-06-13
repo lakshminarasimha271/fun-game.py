@@ -1,0 +1,12 @@
+Explanation
+import random: This module is used to generate a random number.
+get_hint(number, guess): This function takes the correct number and the user's guess, and returns a hint indicating whether the guess is too low, too high, or correct.
+play_game(): This function runs the main loop of the game. It generates a random number between 1 and 100, prompts the user for guesses, provides hints, and counts the number of attempts.
+main block: Calls the play_game() function if the script is run directly.
+Running the Game
+
+How to Play
+The computer will randomly choose a number between 1 and 100.
+The user will enter a guess.
+The computer will provide hints ("Too low!", "Too high!", or "Correct!") to guide the user.
+The game continues until the user guesses the correct number, and the total number of attempts is displayed.
